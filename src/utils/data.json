@@ -1,0 +1,47 @@
+{
+    "about": [
+        {
+            "id": 1,
+            "name": "Anuj Gosalia",
+            "followers": 6482,
+            "following": 245,
+            "bio": "Co-founder & CEO at Terribly Tiny Tales",
+            "link": "http://www.instagram.com/anujgosalia"
+        }
+    ],
+    "posts": [{
+                "id": 1,              
+                "heading": "A Changing World Order",
+                "icon": "../assets/like.png",
+                "para": "The world is changing at a feverish pace. Friends, colleagues and everyone engaged in knowledge work are beginning to sense this, including.....",
+                "footerTitle": "musing",
+                "name": "AnujGosalia",
+                "date": "August 2",
+                "time": "2 mins",
+                "views": "102"
+            },
+            {
+                "id": 2,
+                "heading": "Indian v/s Australia",
+                "icon": "../assets/like.png",
+                "para": "Think about it - this cricket series was akin to therapy. Laying our childhood trauma up top, working with it slowly and surely over two m...",
+                "footerTitle": "thought",
+                "name": "AnujGosalia",
+                "date": "January 21",
+                "time": "1 min",
+                "views": "156"
+            },
+            {
+                "id": 3,
+                "heading": "Write To Build",
+                "icon": "../assets/like.png",
+                "para": "Writing is the first step to create: -stories -products -companies...",
+                "footerTitle": "musing",
+                "name": "AnujGosalia",
+                "date": "November 18",
+                "time": "1 min",
+                "views": "228"
+            }]
+        
+      
+}
