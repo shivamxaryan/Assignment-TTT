@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Terribly Tiny Tales Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Link : https://profilettt.netlify.app
+## Overview
 
-## Available Scripts
+This React-based web application showcases a personal profile page with details about the user, their posts, and a curated content feed. The UI is crafted using Tailwind CSS for a responsive and modern design.
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
+The project is organized into several components and utility files. Below is an overview of the main components:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. **Index.js**
+   - Entry point of the application.
+   - Renders the main `App` component inside a `React.StrictMode`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. **App.js**
+   - Main container component for the application.
+   - Imports and renders the following components:
+     - `Navbar`: Displays a navigation bar.
+     - `Head`: Renders user profile information.
+     - `Post`: Container for displaying user posts.
 
-### `npm test`
+### 3. **components folder**
+   - Contains React components used in the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   #### a. **Navbar.jsx**
+   - Displays a navigation bar with a logo and a button for courses.
+   - Styling utilizes Tailwind CSS classes.
 
-### `npm run build`
+   #### b. **Head.jsx**
+   - Renders user information, including a cover image, profile image, user stats, and social media links.
+   - Uses data from `data.json` for dynamic content.
+   - Styling and layout designed with Tailwind CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   #### c. **Post.jsx**
+   - Container for displaying user posts.
+   - Imports and renders `PostCard` component.
+   - Utilizes Tailwind CSS for styling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   #### d. **PostCard.jsx**
+   - Displays individual post cards.
+   - Retrieves post data from `data.json`.
+   - Utilizes Tailwind CSS for styling.
+   
+### 4. **utils folder**
+   - Contains utility files for data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   #### a. **data.json**
+   - Holds JSON data for user information and posts.
+   - Used to dynamically populate content in various components.
 
-### `npm run eject`
+### 5. **assets folder**
+   - Contains image assets used in the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Libraries and Plugins Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: JavaScript library for building user interfaces.
+- **ReactDOM**: React package for DOM rendering.
+- **Tailwind CSS**: Utility-first CSS framework used for styling.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the application using `npm start`.
 
-## Learn More
+## Additional Notes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Ensure that Node.js and npm are installed on your machine.
+- The project utilizes Tailwind CSS, so familiarity with its utility classes is beneficial.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
